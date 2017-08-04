@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  .timeline
+    each val, key in order
+      .timeline-item
+        .timeline-point.timeline-point-default
+          // event.icon
+          i.fa.fa-money
+        .timeline-event
+          .timeline-heading
+            h4= key
+          .timeline-body
+            p= val
+          .timeline-footer
+            p.text-right
+      span.timeline-label
+        span.label.label-primary= (new Date()).toLocaleString()
+    else
+      p Nothing to see here

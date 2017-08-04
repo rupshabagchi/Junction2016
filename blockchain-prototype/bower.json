@@ -1,0 +1,12 @@
+{
+  "name": "upm-blockchain-prototype",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "bootstrap-responsive-timeline": "^1.0.1"
+  }
+}

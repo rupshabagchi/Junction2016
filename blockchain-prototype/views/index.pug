@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  if events.length > 0
+    .timeline
+      each event in events
+        .timeline-item
+          .timeline-point.timeline-point-default
+            // event.icon
+            i.fa.fa-money
+          .timeline-event
+            .timeline-heading
+              h4= event.header
+            .timeline-body
+              p= event.body
+            .timeline-footer
+              p.text-right= event.footer
+        span.timeline-label
+          span.label.label-primary= event.timestamp
+  else
+    form(action='/orders' method='POST')
+      input(type='submit')

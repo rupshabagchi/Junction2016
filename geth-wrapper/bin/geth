@@ -1,0 +1,15 @@
+#!/bin/sh
+
+DATA_PATH="$GETH_PATH/data/"
+LOG_PATH="$GETH_PATH/log/geth.log"
+NODE_NAME="test-node-1"
+
+geth --identity $NODE_NAME \
+     --rpc --rpcport "8000" --rpccorsdomain "*" \
+     --rpcapi "db,eth,net,web3" \
+     --datadir $DATA_PATH \
+     --port "30303" --nodiscover \
+     --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" \
+     --autodag --networkid $NETWORK_ID \
+     --nat "any" \
+     2>> $LOG_PATH
