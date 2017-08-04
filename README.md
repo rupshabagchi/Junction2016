@@ -8,11 +8,11 @@ UPM is in an ever more complex supply chain environment, it needs a way of conne
 
 Turning interdependent supply chain nodes into an functionally integrated supply chain, using blockchains.
 
-### Built with
+## Built with
 
 Azure, Ethereum. We've set up a private blockchain with multiple nodes.
 
-### Production workflow - simplified
+## Production workflow - simplified
 
 
 1. Items are ordered (Customer Order)
@@ -44,7 +44,7 @@ Azure, Ethereum. We've set up a private blockchain with multiple nodes.
 
   - Record Delivery Status
 
-# Items Lifecycle
+### Items Lifecycle
 
 1. Ordered
 2. Scheduled for Production
@@ -53,6 +53,6 @@ Azure, Ethereum. We've set up a private blockchain with multiple nodes.
 5. Shipped
 6. Delivered
 
-# Data structure
+### Data structure
 
 TBD
