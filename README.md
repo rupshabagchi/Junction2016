@@ -12,8 +12,8 @@ Turning interdependent supply chain nodes into an functionally integrated supply
 
 Azure, Ethereum. We've set up a private blockchain with multiple nodes.
 
-### Production workflow
-# Production workflow (simplified)
+### Production workflow - simplified
+
 
 1. Items are ordered (Customer Order)
 
